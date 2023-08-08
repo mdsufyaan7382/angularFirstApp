@@ -1,5 +1,10 @@
-<h1>Welcome to Angular First Project</h1>
+<h1>Welcome to My Angular First Project App</h1>
 <br>
 <h2>This is Interpolated **{{title}}** </h2>
 <button  (click)="btn()">btn</button>
 <router-outlet></router-outlet>
+<!-- app.component.html -->
+<app-dashboard></app-dashboard>
+
+<button (click)="goToLogin()">Go To Login</button>
+<button (click)="goToDashboard()">Go To Dashboard</button>

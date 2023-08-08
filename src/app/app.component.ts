@@ -19,5 +19,11 @@ export class AppComponent {
   {
         this.route.navigate(['login'])
   }
+  goToLogin(){
+    this.route.navigate(['/login'])
+  }
+  goToDashboard(){
+    this.route.navigate(['/dashboard'])
+  }
 
 }
